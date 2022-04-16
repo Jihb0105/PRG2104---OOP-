@@ -1,0 +1,27 @@
+
+.table-view .column-header .label{
+    -fx-font-size: 20px;
+    -fx-background-color:  #6F8FAF;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 5px;
+    -fx-font-size: 15px;
+}
+.table-row-cell:hover {
+    -fx-text-background-color: #CDCDCD;
+}
+.table-row-cell:odd{
+    -fx-background-color: #F0FFFF;
+}
+.table-row-cell:even{
+    -fx-background-color: #B6D0E2;
+}
+.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+.button:hover{
+    -fx-background-color: #CDCDCD;
+}

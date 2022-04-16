@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todolist.view.AppDetailController">
+   <children>
+      <Text layoutX="76.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROGRAM DESCRIPTION" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="22.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Do List is an application that helps you to stay organized and manage your day-to-day. You can use To Do List to make your day plans that can include task lists, shopping lists, and so on, to increase your productivity and focus on what matters to you. The To Do List application makes it easy to stay organized and manage your life." textAlignment="JUSTIFY" wrappingWidth="325.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="70.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="41.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Do List's modern and easy-to-use experience makes your lists unique and special. " wrappingWidth="325.0" AnchorPane.leftAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Do List Features:" AnchorPane.leftAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add New Task" AnchorPane.leftAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Existing Task" AnchorPane.leftAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="41.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Existing Task" AnchorPane.leftAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="41.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View All Task" AnchorPane.leftAnchor="40.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <Button defaultButton="true" layoutX="155.0" layoutY="441.0" mnemonicParsing="false" onAction="#returnClicked" text="RETURN" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="165.0">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
